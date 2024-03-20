@@ -18,7 +18,8 @@ KCAL_TO_DEFAULT_KT = KCAL_TO_KJ / DEFAULT_KT
 
 # default force fields
 DEFAULT_FF = "smirnoff_2_0_0_ccc.py"
-DEFAULT_PROTEIN_FF = "amber99sbildn"
+# DEFAULT_PROTEIN_FF = "amber99sbildn"
+DEFAULT_PROTEIN_FF = "amber/ff14SB"
 DEFAULT_WATER_FF = "amber14/tip3p"
 
 DEFAULT_CHIRAL_ATOM_RESTRAINT_K = 1000.0
